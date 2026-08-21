@@ -1,18 +1,335 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hoja de vida</title>
+
+  <title>Hoja de Vida - Juan Diego Jojoa</title>
 </head>
 
 <body>
-  <h1>¡¡Hola mundo!! Mi nombre es Juan Diego Jojoa M</h1>
+
+  <!-- Encabezado principal -->
+  <header>
+    <h1>Juan Diego Jojoa</h1>
+    <h2>Ingeniero de Sistemas</h2>
+    <img src="img/foto.jpg" alt="Fotografía de Juan Diego Jojoa" width="200">
+  </header>
+
+  <hr>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Perfil profesional -->
+    <section class="seccion" id="perfil">
+      <h2>Perfil profesional</h2>
+      <p>
+        Ingeniero de Sistemas y Especialista en Construcción de Software,
+        con experiencia en desarrollo de aplicaciones web, mantenimiento
+        de sistemas de información y construcción de soluciones de software.
+      </p>
+      <p>
+        Interesado en el desarrollo de software, tecnologías web,
+        arquitectura de aplicaciones y ciberseguridad.
+      </p>
+    </section>
+    <hr>
+
+    <!-- Información de contacto -->
+    <section class="seccion" id="contacto">
+      <h2>Información de contacto</h2>
+      <p>
+        Correo:
+        <a href="mailto:juandiegojojoa@example.com">
+          juandiegojojoa@example.com
+        </a>
+      </p>
+      <p>
+        Teléfono:
+        <a href="tel:+573000000000">
+          300 000 0000
+        </a>
+      </p>
+      <p>
+        Ciudad: Pasto, Colombia
+      </p>
+      <h3>Envíame un mensaje</h3>
+      <form>
+        <label for="nombre">
+          Nombre:
+        </label>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+        <label for="correo">
+          Correo:
+        </label>
+        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+        <label for="telefono">
+          Teléfono:
+        </label>
+        <input type="tel" id="telefono" name="telefono" placeholder="300 000 0000">
+
+        <label for="mensaje">
+          Mensaje:
+        </label>
+
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+
+        <button type="submit">
+          Enviar mensaje
+        </button>
+
+      </form>
+    </section>
+
+    <hr>
+
+    <!-- Redes profesionales -->
+    <section class="seccion" id="redes">
+      <h2>Redes profesionales</h2>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/" target="_blank">
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/" target="_blank">
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- Educación -->
+    <section class="seccion" id="educacion">
+      <h2>Educación</h2>
+      
+      <article class="formacion">
+        <h3>Ingeniería de Sistemas</h3>
+        <p>
+          Universidad de Nariño
+        </p>
+        <p>
+          Formación profesional en Ingeniería de Sistemas
+        </p>
+      </article>
+
+      <article class="formacion">
+        <h3>Especialización en Construcción de Software</h3>
+
+        <p>
+          Universidad de Nariño
+        </p>
+
+        <p>
+          Especialización en construcción y desarrollo de soluciones
+          de software
+        </p>
+      </article>
+
+      <article class="formacion">
+        <h3>Maestría en Ciberseguridad</h3>
+
+        <p>
+          Universidad Internacional de Valencia
+        </p>
+
+        <p>
+          Formación de posgrado en ciberseguridad
+        </p>
+      </article>
+    </section>
+
+    <hr>
+
+    <!-- Experiencia profesional -->
+    <section class="seccion" id="experiencia">
+      <h2>Experiencia profesional</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Cargo</th>
+            <th>Organización</th>
+            <th>Periodo</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Docente de Tiempo Completo</td>
+            <td>Universidad CESMAG</td>
+            <td>2026 - Actualidad</td>
+          </tr>
+          <tr>
+            <td>Desarrollador de Software</td>
+            <td>Universidad de Nariño</td>
+            <td>Actualidad</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <br>
+
+      <article class="experiencia">
+        <h3>Docente de Tiempo Completo</h3>
+
+        <p>
+          Universidad CESMAG
+        </p>
+
+        <p>
+          2026 - Actualidad
+        </p>
+
+        <ul>
+          <li>
+            Docencia en asignaturas relacionadas con programación
+            y desarrollo de software.
+          </li>
+
+          <li>
+            Diseño y preparación de material académico y actividades prácticas.
+          </li>
+
+          <li>
+            Orientación de proyectos y procesos de aprendizaje en programación.
+          </li>
+        </ul>
+      </article>
+
+      <article class="experiencia">
+
+        <h3>Desarrollador de Software</h3>
+
+        <p>
+          Universidad de Nariño
+        </p>
+
+        <p>
+          Desarrollo y mantenimiento de sistemas de información
+        </p>
+
+        <ul>
+          <li>
+            Desarrollo de aplicaciones web.
+          </li>
+
+          <li>
+            Mantenimiento y actualización de módulos institucionales.
+          </li>
+
+          <li>
+            Desarrollo de aplicaciones utilizando Angular.
+          </li>
+
+          <li>
+            Desarrollo de servicios y APIs con Node.js.
+          </li>
+
+          <li>
+            Trabajo con bases de datos PostgreSQL.
+          </li>
+
+          <li>
+            Generación de reportes utilizando JasperSoft.
+          </li>
+        </ul>
+      </article>
+
+    </section>
+
+    <hr>
+
+    <!-- Habilidades -->
+    <section class="seccion" id="habilidades">
+
+      <h2>Habilidades</h2>
+
+      <ul>
+
+        <li>Desarrollo web</li>
+        <li>Angular</li>
+        <li>TypeScript</li>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>Python</li>
+        <li>Django</li>
+        <li>C# y .NET</li>
+        <li>PostgreSQL</li>
+        <li>Git y GitHub</li>
+        <li>Desarrollo de APIs</li>
+        <li>Construcción de software</li>
+
+      </ul>
+
+    </section>
+
+    <hr>
+
+    <!-- Proyectos -->
+    <section class="seccion" id="proyectos">
+
+      <h2>Proyectos</h2>
+
+      <article class="proyecto">
+        <h3>Sistemas de información institucionales</h3>
+
+        <p>
+          Desarrollo y mantenimiento de módulos para sistemas de información
+          institucionales, incluyendo procesos académicos, financieros,
+          administrativos y de contratación.
+        </p>
+
+        <p>
+          Tecnologías utilizadas:
+        </p>
+
+        <ul>
+          <li>Angular</li>
+          <li>TypeScript</li>
+          <li>Node.js</li>
+          <li>PostgreSQL</li>
+          <li>JasperSoft</li>
+        </ul>
+
+      </article>
+
+      <article class="proyecto">
+        <h3>GymPlus</h3>
+        <p>
+          Sistema web para la gestión y reserva de servicios de un gimnasio,
+          desarrollado con una arquitectura de frontend y backend.
+        </p>
+
+        <p>
+          Tecnologías utilizadas:
+        </p>
+
+        <ul>
+          <li>Angular</li>
+          <li>Python</li>
+          <li>Django</li>
+          <li>PostgreSQL</li>
+        </ul>
+
+      </article>
+    </section>
+
+  </main>
+  <hr>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>
+      Hoja de vida - Juan Diego Jojoa
+    </p>
+  </footer>
+
 </body>
-
 </html>
-
-
-
