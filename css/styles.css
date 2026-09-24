@@ -3,7 +3,7 @@
 ========================= */
 
 body {
-    background-color: #f95555;
+    background-color: #f4f4f4;
     color: #333;
     font-family: Arial, sans-serif;
 }
@@ -17,14 +17,44 @@ h1 {
     font-size: 40px;
 }
 
+h2{
+    color: #2563eb;
+    font-size: 28px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+    line-height: 1.6; /*SEPARACIÒN INTERLINEADO*/
+}
+
 /* =========================
    SECCIONES
 ========================= */
-
-.seccion {
-    background-color: white;
+section{ /*ETIQUETA*/
+    background-color: rgb(179, 98, 98);
+}
+.seccion { /*CLASE (.)*/
+    background-color: whitesmoke;
+}
+#perfil { /*ID (#)*/
+    background-color: #eaf2ff
 }
 
-#perfil {
-    background-color: #395a8f;
+/* =========================
+   ENCABEZADO
+========================= */
+header{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
+header h1{
+    color: white;
+
+}
+header h2{
+    color: #d1d5db;
 }
