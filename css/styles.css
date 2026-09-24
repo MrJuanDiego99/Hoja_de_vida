@@ -1,0 +1,30 @@
+/* =========================
+   ESTILOS GENERALES
+========================= */
+
+body {
+    background-color: #f95555;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* =========================
+   TEXTOS
+========================= */
+
+h1 {
+    color: #1f2937;
+    font-size: 40px;
+}
+
+/* =========================
+   SECCIONES
+========================= */
+
+.seccion {
+    background-color: white;
+}
+
+#perfil {
+    background-color: #395a8f;
+}
