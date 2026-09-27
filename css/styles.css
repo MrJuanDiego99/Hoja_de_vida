@@ -1,60 +1,224 @@
 /* =========================
-   ESTILOS GENERALES
+   CONFIGURACIÓN GENERAL
 ========================= */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     background-color: #f4f4f4;
     color: #333;
     font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-/* =========================
-   TEXTOS
-========================= */
-
-h1 {
-    color: #1f2937;
-    font-size: 40px;
-}
-
-h2{
-    color: #2563eb;
-    font-size: 28px;
-}
-
-h3{
-    font-size: 20px;
-}
-
-p{
-    line-height: 1.6; /*SEPARACIÒN INTERLINEADO*/
-}
-
-/* =========================
-   SECCIONES
-========================= */
-section{ /*ETIQUETA*/
-    background-color: rgb(179, 98, 98);
-}
-.seccion { /*CLASE (.)*/
-    background-color: whitesmoke;
-}
-#perfil { /*ID (#)*/
-    background-color: #eaf2ff
-}
 
 /* =========================
    ENCABEZADO
 ========================= */
-header{
+
+header {
     background-color: #1f2937;
     color: white;
     text-align: center;
+    padding: 30px;
 }
-header h1{
-    color: white;
 
+header h1 {
+    margin: 0;
+    color: white;
+    font-size: 40px;
 }
-header h2{
+
+header h2 {
     color: #d1d5db;
+    font-size: 22px;
+}
+
+header img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+/* =========================
+   TÍTULOS
+========================= */
+
+h2 {
+    color: #2563eb;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+
+/* =========================
+   SECCIONES
+========================= */
+
+.seccion {
+    background-color: white;
+    padding: 25px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.seccion h2 {
+    margin-top: 0;
+}
+
+
+/* =========================
+   PERFIL
+========================= */
+
+#perfil {
+    background-color: #eaf2ff;
+}
+
+
+/* =========================
+   FORMACIÓN
+========================= */
+.formacion {
+    background-color: #f9fafb;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+
+/* =========================
+   EXPERIENCIA
+========================= */
+.experiencia {
+    background-color: #f9fafb;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+/* =========================
+   PROYECTOS
+========================= */
+.proyecto {
+    background-color: #f9fafb;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+}
+
+
+/* =========================
+   ENLACES
+========================= */
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   LISTAS
+========================= */
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+
+/* =========================
+   FORMULARIO
+========================= */
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* =========================
+   TABLA
+========================= */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1f2937;
+    color: white;
+}
+
+
+/* =========================
+   PIE DE PÁGINA
+========================= */
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
 }
